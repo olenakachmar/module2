@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+p{
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  text-align: justify;
+  overflow: hidden;
+}
+section{
+  border: 2px solid;
+  background-color: #DCDCDC;
+  font-family: "Times New Roman", Times, serif;
+}
+article{
+  float: right;
+  width: 150px;
+  height: 30px;
+  margin: 0 0 15px 0;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;  
+}
+.chiken{
+  background-color: #FFB6C1;
+}
+.beef{
+  background-color: #B22222;
+  color: white;
+}
+.sushi{
+  background-color: #FFFFCC;
+}
+.row{
+  width: 100%;
+}
+/* Desktop PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sx-12 {
+  	float: left;
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  margin: 20px 0 50px 0;
+}
+section{
+  width: 33.3%;
+  border: 2px solid;
+  padding: 0 0 10px 10px;
+  margin: 10px auto 10px auto;
+  background-color: #DCDCDC;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  
+}
+article{
+  float: right;
+  width: 150px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+.chiken{
+  background-color: #FFB6C1;
+}
+.beef{
+  background-color: #B22222;
+  color: white;
+}
+.sushi{
+  background-color: #FFFFCC;
+}
+.row{
+  width: 100%;
+}
+/* Desktop view */
+
+/* @media (min-width: 992px){
+	section {
+		width: 33%;
+		float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	section {
+		width: 50%;
+		float: left;
+    
+	}
+	#s3 {
+		width: 100%;
+		float:left;
+	}
+} */ */
